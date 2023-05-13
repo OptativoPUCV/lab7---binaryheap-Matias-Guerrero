@@ -28,3 +28,9 @@ sá., 13 de may. de 2023 10:56:29:
  tests:  7|1
 total_score: 45/70
 231c229
+sá., 13 de may. de 2023 19:26:47: 
+ heap.c | 37 +++++++++++++++++++++++++++++++++++++
+ 1 file changed, 37 insertions(+)
+ tests:  7|1
+total_score: 45/70
+98f9b23
