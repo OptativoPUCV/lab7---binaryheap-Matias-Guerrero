@@ -69,7 +69,6 @@ void heap_pop(Heap* pq){
       pq->heapArray[0] = pq->heapArray[pq->size - 1];
       pq->size--;
 
-      heapElem temp = pq->heapArray[0];
       int i = 0;
 
       while(1)
@@ -77,6 +76,8 @@ void heap_pop(Heap* pq){
          int izquierda = (2*i) + 1;
          int derecha = (2*i) + 2;
          int actual = i;
+
+         heapElem temp = pq->heapArray[i];
 
          if(izquierda < pq->size && pq->heapArray[izquierda].priority > pq->heapArray[actual].priority)
          {
