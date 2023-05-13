@@ -83,7 +83,8 @@ void heap_pop(Heap* pq){
          {
             actual = izquierda;
          }
-         else if(derecha < pq->size && pq->heapArray[derecha].priority > pq->heapArray[actual].priority)
+         
+         if(derecha < pq->size && pq->heapArray[derecha].priority > pq->heapArray[actual].priority)
          {
             actual = derecha;
          }
