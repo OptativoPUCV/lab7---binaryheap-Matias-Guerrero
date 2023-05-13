@@ -16,3 +16,9 @@ sá., 13 de may. de 2023 10:55:35:
  tests:  2|2
 total_score: 20/70
 c5e8808
+sá., 13 de may. de 2023 10:55:53: 
+ heap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  5|2
+total_score: 35/70
+9e21414
